@@ -1,0 +1,9 @@
+[package]
+name = "sdl-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sdl3 = { version = "0.17.3", features = ["build-from-source"] }
+ndarray = { version = "0.17.2" }
+ndarray-linalg = { version = "0.18.1", features = ["openblas-static"] }
